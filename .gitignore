@@ -4,9 +4,7 @@ out/
 
 # Ignores development (and goerli) broadcast logs
 !/broadcast
-/broadcast/*/31337/
-/broadcast/*/5/
-/broadcast/**/dry-run/
+/broadcast/*
 
 # Docs
 docs/
@@ -16,3 +14,5 @@ docs/
 
 # Node modules
 node_modules/
+
+temp.txt
